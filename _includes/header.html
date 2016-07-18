@@ -1,17 +1,12 @@
-<aside>
+<choosewisely>
 	<div class="container">
 		<nav>
-			<ul>
-				{% for page in site.pages %} {% if page.title %}
-				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-				{% endif %} {% endfor %}
-				<li><a href="{{ "/thoughts" | prepend: site.baseurl }}">Thoughts</a></li>
-			</ul>
-			</li>
-			</ul>
+			<ni class="floating-box"><a href="{{ "/story" | prepend: site.baseurl }}">Story</a></ni>
+			<ni class="floating-box"><a href="{{ "/products" | prepend: site.baseurl }}">Products</a></ni>
+			<ni class="floating-box"><a href="{{ "/thoughts" | prepend: site.baseurl }}">Thoughts</a></ni>
 		</nav>
 	</div>
-</aside>
+</choosewisely>
 
 <header>
 	<h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>

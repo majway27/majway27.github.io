@@ -1,0 +1,146 @@
+body {
+	margin: 0;
+	color: $font-color;
+	font-family: $font-style;
+	background: $background;
+	background-image: url('../img/bock-danaT1.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 70% -30%;
+}
+h1,
+h2,
+h3 {
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, $link-color), color-stop(100%, $heading-font-color)); background-image: -webkit-linear-gradient(#ffffff,$edge);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: $edge;
+    text-shadow: 1px 1px 1px $edge;
+    font-size: 2.5em;
+	
+}
+h1 {
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, $link-color), color-stop(100%, $heading-font-color)); background-image: -webkit-linear-gradient(#ffffff,$edge);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: $edge;
+    text-shadow: 1px 1px 1px $font-color;
+    font-size: 4.5em;
+	a,
+	a:visited,a:hover {
+		text-decoration: none;
+	}
+}
+h2 {
+	font-size: 2em;
+}
+a,
+a:visited {
+	color: $link-color;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+	color: $link-hover-color;
+	text-decoration: none;
+}
+header {
+	background: $heading-font-color;
+}
+
+main {
+
+}
+
+.toc {
+	margin-top: 23%;
+	text-align: right;
+}
+
+.container {
+	
+}
+
+/* choosewisely */
+
+choosewisely {
+	
+	background: #000;
+	nav {
+		ni {
+			text-align: center;
+			padding: 15px;
+		} // ni
+	} //nav
+} //choosewisely
+
+.floating-box {
+	    display: inline-block;
+	    width: 33.1%;
+	    
+	    border: 3px solid $edge;
+}
+
+footer {
+	
+}
+
+.blues {
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, $link-color), color-stop(100%, $heading-font-color)); background-image: -webkit-linear-gradient(#ffffff,$edge);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: $edge;
+    text-shadow: 1px 1px 1px $heading-font-color;
+    font-size: 2.5em;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px !important;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .closebtn {
+    font-size: 40px !important;
+    top: 15px;
+    right: 35px;
+  }
+}

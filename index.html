@@ -1,7 +1,26 @@
 ---
-layout: default
+layout: landing
 ---
 
-  <h2>Main Page</h2>
-
-  Main content goes here. 
+  <h1>{{ site.title }}</h1>
+  <h3><a href="{{ "#" | prepend: site.baseurl }}" onclick="openNav()" >Story</a></h3>
+	<h3><a href="{{ "#" | prepend: site.baseurl }}">Products</a></h3>
+	<h3><a href="{{ "#" | prepend: site.baseurl }}">Thoughts</a></h3>
+  </br>
+  <i class="fa fa-github blues" style="font-size:40px;"></i>
+  &nbsp&nbsp&nbsp
+	<i class="fa fa-linkedin blues" style="font-size:40px;"></i>
+  &nbsp&nbsp&nbsp
+  <i class="fa fa-envelope blues" style="font-size:40px;"></i>
+  &nbsp&nbsp&nbsp
+  <i class="fa fa-twitter blues" style="font-size:40px;"></i>
+  
+  <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+$background: #0E0C09; //SMOKY BLACK
+$font-color: #F4EEE2; //ALABASTER
+$font-style: 'Open Sans', sans-serif;
+$link-color: #EFD6AC; //DEEP CHAMPAGNE
+$link-hover-color: $font-color;
+$heading-font: 'Secular One', sans-serif;
+$heading-font-color: #628395; //STEEL TEAL
+$edge: #96897B; //CINEREOUS
+
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}

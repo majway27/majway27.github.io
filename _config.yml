@@ -18,7 +18,7 @@ github_username:  majway27
 
 # Build Settings
 sass:
-  sass_dir: _sass
+  sass_dir: assets/css
 include: ['_pages']
 kramdown:
   input: GFM
