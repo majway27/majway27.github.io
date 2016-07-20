@@ -1,9 +1,9 @@
 body {
-	margin: 0;
-	color: $font-color;
-	font-family: $font-style;
-	background: $background;
-	background-image: url('../img/bock-danaT1.png');
+  margin: 0;
+  color: $font-color;
+  font-family: $font-style;
+  background: $base;
+  background-image: url('../img/bock-danaT1.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 70% -30%;
@@ -11,13 +11,12 @@ body {
 h1,
 h2,
 h3 {
-	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, $link-color), color-stop(100%, $heading-font-color)); background-image: -webkit-linear-gradient(#ffffff,$edge);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: $edge;
-    text-shadow: 1px 1px 1px $edge;
-    font-size: 2.5em;
-	
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, $link-color), color-stop(100%, $heading-font-color)); background-image: -webkit-linear-gradient(#ffffff,$edge);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: $edge;
+  text-shadow: 1px 1px 1px $edge;
+  font-size: 2.5em;
 }
 h1 {
 	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, $link-color), color-stop(100%, $heading-font-color)); background-image: -webkit-linear-gradient(#ffffff,$edge);
@@ -101,8 +100,7 @@ footer {
     z-index: 1;
     bottom: 0;
     left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
+    background-color: $base-rgba;
     overflow-y: hidden;
     transition: 0.5s;
 }
@@ -119,13 +117,13 @@ footer {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: $font-color;
     display: block;
     transition: 0.3s;
 }
 
 .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
+    color: $link-color;
 }
 
 .closebtn {

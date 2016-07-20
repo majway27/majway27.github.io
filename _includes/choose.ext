@@ -1,0 +1,3 @@
+  <h3><a href="{{ "#" | prepend: site.baseurl }}" onclick="openStoryNav()" >Story</a></h3>
+	<h3><a href="{{ "#" | prepend: site.baseurl }}" onclick="openProductNav()" >Products</a></h3>
+	<h3><a href="{{ "#" | prepend: site.baseurl }}" onclick="openThoughtNav()" >Thoughts</a></h3>

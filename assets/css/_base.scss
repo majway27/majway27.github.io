@@ -1,11 +1,18 @@
-$background: #0E0C09; //SMOKY BLACK
+$base: #0E0C09; //SMOKY BLACK
+$base-rgba: rgba(14, 12, 9, .7);
+
 $font-color: #F4EEE2; //ALABASTER
 $font-style: 'Open Sans', sans-serif;
+
 $link-color: #EFD6AC; //DEEP CHAMPAGNE
 $link-hover-color: $font-color;
+
 $heading-font: 'Secular One', sans-serif;
 $heading-font-color: #628395; //STEEL TEAL
+$heading-font-color-rgba: rgba(98, 131, 149, 0.7); //For overlay menus
+
 $edge: #96897B; //CINEREOUS
+$edge-rgba: rgba(150, 137, 123, .9);
 
 *,
 *::before,

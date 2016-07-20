@@ -1,0 +1,9 @@
+  <div id="myThoughtNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeThoughtNav()"><i class="fa fa-arrow-circle-down" style="font-size:40px;"></i></a>
+    <div class="overlay-content">
+      <a href="#">Stuff</a>
+      <a href="#">Things</a>
+      <a href="#">Foo</a>
+      <a href="#">Bar</a>
+    </div>
+  </div>
