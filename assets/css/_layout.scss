@@ -7,6 +7,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 70% -30%;
+  transition: background 0.5s linear;
+  -webkit-transition: background 1.5s linear;
 }
 h1,
 h2,
@@ -142,3 +144,5 @@ footer {
     right: 35px;
   }
 }
+
+.img-preload { visibility: none; }
