@@ -146,3 +146,43 @@ footer {
 }
 
 .img-preload { visibility: none; }
+
+.product {
+  background-color: $heading-font-color-rgba;
+  width: 50%;
+  margin: auto;
+  border: 3px inset $edge;
+  padding: 15px;
+  
+  topic {
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, $link-color), color-stop(100%, $heading-font-color)); background-image: -webkit-linear-gradient(#ffffff,$edge);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: $edge;
+    text-shadow: 1px 1px 1px $font-color;
+    font-size: 2.5em;
+    display: block;
+  }
+  
+  teaser {
+    color: blue;
+    float: left;
+  }
+  
+  sticker {
+    color: $font-color;
+    display: block;
+    padding: .2em .6em .3em;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    background-color: $edge;
+    float: right;
+    margin: 3px;
+  }
+  
+}
