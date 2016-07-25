@@ -63,7 +63,6 @@ main {
 }
 
 /* choosewisely */
-
 choosewisely {
 	
 	background: #000;
@@ -103,7 +102,7 @@ footer {
     bottom: 0;
     left: 0;
     background-color: $base-rgba;
-    overflow-y: hidden;
+    overflow-y: scroll;
     transition: 0.5s;
 }
 
@@ -153,6 +152,8 @@ footer {
   margin: auto;
   border: 3px inset $edge;
   padding: 15px;
+  overflow:hidden;
+  
   
   topic {
     background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, $link-color), color-stop(100%, $heading-font-color)); background-image: -webkit-linear-gradient(#ffffff,$edge);
@@ -165,7 +166,7 @@ footer {
   }
   
   teaser {
-    color: blue;
+    color: $link-color;
     float: left;
   }
   
@@ -184,5 +185,8 @@ footer {
     float: right;
     margin: 3px;
   }
-  
+} /* End Product */
+
+.overlay-btn {
+    color: $font-color;
 }
