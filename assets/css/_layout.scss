@@ -168,6 +168,7 @@ footer {
   teaser {
     color: $link-color;
     float: left;
+    font-size: 17px;
   }
   
   sticker {
@@ -185,6 +186,18 @@ footer {
     float: right;
     margin: 3px;
   }
+
+  .repo-fa {
+    float: right;
+    font-size: 30px;
+  }
+  
+  .repo-fa-na {
+    float: right;
+    font-size: 30px;
+    color: $heading-font-color-rgba;
+  }
+  
 } /* End Product */
 
 .overlay-btn {

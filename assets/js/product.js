@@ -1,7 +1,6 @@
-/* global $ */
+
 
 var $btns = $('.overlay-btn').click(function() {
-  alert('test');
   if (this.id == 'all') {
     $('#parent > div').fadeIn(450);
   } else {

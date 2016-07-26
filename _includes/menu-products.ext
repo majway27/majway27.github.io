@@ -2,35 +2,41 @@
     <a href="javascript:void(0)" class="closebtn" onclick="closeProductNav()"><i class="fa fa-arrow-circle-down" style="font-size:40px;"></i></a>
     <div class="overlay-content">
       
-      <span class="active btn overlay-btn" id="all">Show All</span>
-      <span class="btn overlay-btn" id="a">AWS</span>
-      <span class="btn overlay-btn" id="b">Bootstrap</span>
-      <span class="btn overlay-btn" id="d">CakePHP</span>
-      <span class="btn overlay-btn" id="c">Docker</span>
-      <span class="btn overlay-btn" id="c">Heroku</span>
-      <span class="btn overlay-btn" id="d">Rails</span>
-      <span class="btn overlay-btn" id="d">MySQL</span>
-      <span class="btn overlay-btn" id="d">Postgresql</span>
+      <div class="active btn overlay-btn" id="all">Show All</div>
+      <div class="btn overlay-btn" id="a" onclick="testclick()">AWS</div>
+      <div class="btn overlay-btn" id="b">Bootstrap</div>
+      <div class="btn overlay-btn" id="d">CakePHP</div>
+      <div class="btn overlay-btn" id="c">Docker</div>
+      <div class="btn overlay-btn" id="d">GitHub-Pages</div>
+      <div class="btn overlay-btn" id="c">Heroku</div>
+      <div class="btn overlay-btn" id="c">Jekyll</div>
+      <div class="btn overlay-btn" id="d">Rails</div>
+      <div class="btn overlay-btn" id="d">MySQL</div>
+      <div class="btn overlay-btn" id="d">Postgresql</div>
       
       <div class="product">
-        <topic href="https://lab5.majway.com/keldo-app" target="_blank">Keldo</topic>
+        <repo><a href="https://github.com/majway27/keldo" target="_blank"><i class="fa fa-github repo-fa"></i></a></repo>
+        <topic><a href="https://lab5.majway.com/keldo-app" target="_blank">Keldo</a></topic>
         <teaser>A social writing studio with a stage and a foucs on compact writing.</teaser>
         <sticker id="php">CakePHP</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="docker">Docker</sticker><sticker id="mysql">MySQL</sticker>
       </div>
       <div class="product">
-        <topic href="tc.majway.com" target="_blank">SuggestionBox</topic>
-        <teaser>A feedback tool with focus on a tight feedback loop.</teaser>
+        <repo><a href="https://github.com/majway27" target="_blank"><i class="fa fa-github repo-fa-na"></i></a></repo>
+        <topic><a href="https://tc.majway.com" target="_blank">SuggestionBox</a></topic>
+        <teaser>Team feedback tool with focus on a tight feedback loop. POC for client.</teaser>
         <sticker id="Rails">Rails</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="AWS">AWS</sticker><sticker id="postgresql">Postgresql</sticker>
       </div>
       <div class="product">
-        <topic href="brushes.majway.com" target="_blank">Brushes</topic>
-        <teaser>Creativity Catered, Brushes is a POC for an event business.</teaser>
+        <repo><a href="https://github.com/majway27/brushes" target="_blank"><i class="fa fa-github repo-fa"></i></a></repo>
+        <topic><a href="https://brushes.majway.com" target="_blank">Brushes</a></topic>
+        <teaser>Creativity catered event business. POC for client.</teaser>
         <sticker id="Heroku">Heroku</sticker><sticker id="Rails">Rails</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="postgresql">Postgresql</sticker>
       </div>
       <div class="product">
-        <topic href="#" target="_blank">In Progress</topic>
-        <teaser>Solution Details Here.</teaser>
-        <sticker id="Tech">Tech</sticker>
+        <repo><a href="https://github.com/majway27/majway27.github.io" target="_blank"><i class="fa fa-github repo-fa"></i></a></repo>
+        <topic><a href="https://www.mayway.com" target="_blank">Majway.com</a></topic>
+        <teaser>Portfolio.</teaser>
+        <sticker id="jekyll">Jekyll</sticker><sticker id="ghpages">GitHub-Pages</sticker><sticker id="bootstrap">Bootstrap</sticker>
       </div>
       <div class="product">
         <topic href="#" target="_blank">In Progress</topic>
