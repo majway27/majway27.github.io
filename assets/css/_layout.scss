@@ -115,9 +115,21 @@ footer {
 }
 
 .overlay a {
-    padding: 8px;
+    padding: 10px;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 2em;
+      @media all and (max-device-width: 785px){
+        font-size: 1.3em;
+        padding: 8px;
+      }
+      @media all and (max-device-width: 640px){
+        font-size: 1em;
+        padding: 6px;
+      }
+      @media all and (max-device-width: 320px){
+        font-size: .95em;
+        padding: 4px;
+      }
     color: $font-color;
     display: block;
     transition: 0.3s;
@@ -162,18 +174,39 @@ footer {
     color: $edge;
     text-shadow: 1px 1px 1px $font-color;
     font-size: 2.5em;
+      @media all and (max-device-width: 720px){
+        font-size: 2.3em;
+      }
+      @media all and (max-device-width: 640px){
+        font-size: 2em;
+      }
+      @media all and (max-device-width: 320px){
+        font-size: 1em;
+      }
     display: block;
   }
   
   teaser {
     color: $link-color;
-    float: left;
-    font-size: 17px;
+    margin: auto;
+    font-size: 2em;
+      @media all and (max-device-width: 785px){
+        font-size: 1.3em;
+        padding: 8px;
+      }
+      @media all and (max-device-width: 640px){
+        font-size: 1em;
+        padding: 6px;
+      }
+      @media all and (max-device-width: 320px){
+        font-size: .95em;
+        padding: 4px;
+      }
   }
   
   sticker {
     color: $font-color;
-    display: block;
+    display: inline;
     padding: .2em .6em .3em;
     font-size: 100%;
     font-weight: 700;
@@ -183,7 +216,6 @@ footer {
     vertical-align: baseline;
     border-radius: .25em;
     background-color: $edge;
-    float: right;
     margin: 3px;
   }
 
@@ -202,4 +234,9 @@ footer {
 
 .overlay-btn {
     color: $font-color;
+}
+
+.spacer-vertical {
+  margin-top: 10px;
+  margin-bottom: 15px;
 }

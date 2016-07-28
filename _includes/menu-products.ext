@@ -19,40 +19,54 @@
         <repo><a href="https://github.com/majway27/keldo" target="_blank"><i class="fa fa-github repo-fa"></i></a></repo>
         <topic><a href="https://lab5.majway.com/keldo-app" target="_blank">Keldo</a></topic>
         <teaser>A social writing studio with a stage and a foucs on compact writing.</teaser>
-        <sticker id="php">CakePHP</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="docker">Docker</sticker><sticker id="mysql">MySQL</sticker>
+        <div class="spacer-vertical">
+          <sticker id="php">CakePHP</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="docker">Docker</sticker><sticker id="mysql">MySQL</sticker>
+        </div>
       </div>
       <div class="product rails bootstrap aws postgresql">
         <repo><a href="https://github.com/majway27" target="_blank"><i class="fa fa-github repo-fa-na"></i></a></repo>
         <topic><a href="https://tc.majway.com" target="_blank">SuggestionBox</a></topic>
         <teaser>Team feedback tool with focus on a tight feedback loop. POC for client.</teaser>
-        <sticker id="Rails">Rails</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="AWS">AWS</sticker><sticker id="postgresql">Postgresql</sticker>
+        <div class="spacer-vertical">
+          <sticker id="Rails">Rails</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="AWS">AWS</sticker><sticker id="postgresql">Postgresql</sticker>
+        </div>
       </div>
       <div class="product rails bootstrap heroku postgresql">
         <repo><a href="https://github.com/majway27/brushes" target="_blank"><i class="fa fa-github repo-fa"></i></a></repo>
         <topic><a href="https://brushes.majway.com" target="_blank">Brushes</a></topic>
         <teaser>Creativity catered event business. POC for client.</teaser>
-        <sticker id="Heroku">Heroku</sticker><sticker id="Rails">Rails</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="postgresql">Postgresql</sticker>
+        <div class="spacer-vertical">
+          <sticker id="Heroku">Heroku</sticker><sticker id="Rails">Rails</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="postgresql">Postgresql</sticker>
+        </div>
       </div>
       <div class="product jekyll ghpages bootstrap">
         <repo><a href="https://github.com/majway27/majway27.github.io" target="_blank"><i class="fa fa-github repo-fa"></i></a></repo>
         <topic><a href="https://www.mayway.com" target="_blank">Majway.com</a></topic>
         <teaser>Portfolio.</teaser>
-        <sticker id="jekyll">Jekyll</sticker><sticker id="ghpages">GitHub-Pages</sticker><sticker id="bootstrap">Bootstrap</sticker>
+        <div class="spacer-vertical">
+          <sticker id="jekyll">Jekyll</sticker><sticker id="ghpages">GitHub-Pages</sticker><sticker id="bootstrap">Bootstrap</sticker>
+        </div>
       </div>
       <div class="product">
         <topic href="#" target="_blank">In Progress</topic>
         <teaser>Solution Details Here.</teaser>
-        <sticker id="Tech">Tech</sticker>
+        <div class="spacer-vertical">
+          <sticker id="Tech">Tech</sticker>
+        </div>
       </div>
       <div class="product">
         <topic href="#" target="_blank">In Progress</topic>
         <teaser>Solution Details Here.</teaser>
-        <sticker id="Tech">Tech</sticker>
+        <div class="spacer-vertical">
+          <sticker id="Tech">Tech</sticker>
+        </div>
       </div>
       <div class="product">
         <topic href="#" target="_blank">In Progress</topic>
         <teaser>Solution Details Here.</teaser>
-        <sticker id="Tech">Tech</sticker>
+        <div class="spacer-vertical">
+          <sticker id="Tech">Tech</sticker>
+        </div>
       </div>
     </div>
   </div>
