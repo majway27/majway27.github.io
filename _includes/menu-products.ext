@@ -1,38 +1,39 @@
-  <div id="myProductNav" class="overlay">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeProductNav()"><i class="fa fa-arrow-circle-down" style="font-size:40px;"></i></a>
-    <div class="overlay-content">
-      
-      <div class="active btn overlay-btn" id="all">Show All</div>
-      <div class="btn overlay-btn" id="a" onclick="testclick()">AWS</div>
-      <div class="btn overlay-btn" id="b">Bootstrap</div>
-      <div class="btn overlay-btn" id="d">CakePHP</div>
-      <div class="btn overlay-btn" id="c">Docker</div>
-      <div class="btn overlay-btn" id="d">GitHub-Pages</div>
-      <div class="btn overlay-btn" id="c">Heroku</div>
-      <div class="btn overlay-btn" id="c">Jekyll</div>
-      <div class="btn overlay-btn" id="d">Rails</div>
-      <div class="btn overlay-btn" id="d">MySQL</div>
-      <div class="btn overlay-btn" id="d">Postgresql</div>
-      
-      <div class="product">
+<div id="myProductNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeProductNav()"><i class="fa fa-arrow-circle-down" style="font-size:40px;"></i></a>
+  <div class="overlay-content">
+    
+    <div class="active btn overlay-btn" data-filter="product" id="all">Show All</div>
+    <div class="btn overlay-btn" data-filter="aws">AWS</div>
+    <div class="btn overlay-btn" data-filter="bootstrap">Bootstrap</div>
+    <div class="btn overlay-btn" data-filter="php">CakePHP</div>
+    <div class="btn overlay-btn" data-filter="docker">Docker</div>
+    <div class="btn overlay-btn" data-filter="ghpages">GitHub-Pages</div>
+    <div class="btn overlay-btn" data-filter="heroku">Heroku</div>
+    <div class="btn overlay-btn" data-filter="jekyll">Jekyll</div>
+    <div class="btn overlay-btn" data-filter="rails">Rails</div>
+    <div class="btn overlay-btn" data-filter="mysql">MySQL</div>
+    <div class="btn overlay-btn" data-filter="postgresql">Postgresql</div>
+    
+    <div class="roster">
+      <div class="product php bootstrap docker mysql">
         <repo><a href="https://github.com/majway27/keldo" target="_blank"><i class="fa fa-github repo-fa"></i></a></repo>
         <topic><a href="https://lab5.majway.com/keldo-app" target="_blank">Keldo</a></topic>
         <teaser>A social writing studio with a stage and a foucs on compact writing.</teaser>
         <sticker id="php">CakePHP</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="docker">Docker</sticker><sticker id="mysql">MySQL</sticker>
       </div>
-      <div class="product">
+      <div class="product rails bootstrap aws postgresql">
         <repo><a href="https://github.com/majway27" target="_blank"><i class="fa fa-github repo-fa-na"></i></a></repo>
         <topic><a href="https://tc.majway.com" target="_blank">SuggestionBox</a></topic>
         <teaser>Team feedback tool with focus on a tight feedback loop. POC for client.</teaser>
         <sticker id="Rails">Rails</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="AWS">AWS</sticker><sticker id="postgresql">Postgresql</sticker>
       </div>
-      <div class="product">
+      <div class="product rails bootstrap heroku postgresql">
         <repo><a href="https://github.com/majway27/brushes" target="_blank"><i class="fa fa-github repo-fa"></i></a></repo>
         <topic><a href="https://brushes.majway.com" target="_blank">Brushes</a></topic>
         <teaser>Creativity catered event business. POC for client.</teaser>
         <sticker id="Heroku">Heroku</sticker><sticker id="Rails">Rails</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="postgresql">Postgresql</sticker>
       </div>
-      <div class="product">
+      <div class="product jekyll ghpages bootstrap">
         <repo><a href="https://github.com/majway27/majway27.github.io" target="_blank"><i class="fa fa-github repo-fa"></i></a></repo>
         <topic><a href="https://www.mayway.com" target="_blank">Majway.com</a></topic>
         <teaser>Portfolio.</teaser>
@@ -55,3 +56,4 @@
       </div>
     </div>
   </div>
+</div>

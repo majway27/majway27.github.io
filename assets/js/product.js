@@ -1,12 +1,22 @@
+/* global $ */
 
+$(document).ready(function() {
+  
+  var $boxs = $(".roster > .product");
+  
+  var $btns = $(".overlay-btn").on("click", function() {
+  
+    var active = 
+      $btns.removeClass("active")
+        .filter(this)
+        .addClass("active")
+        .data("filter");
+  
+      $boxs
+        .hide()
+        .filter( "." + active )
+        .fadeIn(450);
 
-var $btns = $('.overlay-btn').click(function() {
-  if (this.id == 'all') {
-    $('#parent > div').fadeIn(450);
-  } else {
-    var $el = $('.' + this.id).fadeIn(450);
-    $('#parent > div').not($el).hide();
-  }
-  $btns.removeClass('active');
-  $(this).addClass('active');
-})
+  });
+});
+
