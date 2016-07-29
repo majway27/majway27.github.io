@@ -1,9 +1,41 @@
-  <div id="myStoryNav" class="overlay">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeStoryNav()"><i class="fa fa-arrow-circle-down" style="font-size:40px;"></i></a>
+<div id="myStoryNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeStoryNav()"><i class="fa fa-arrow-circle-down" style="font-size:40px;"></i></a>
     <div class="overlay-content">
-      <a href="#">Stuff</a>
-      <a href="#">Things</a>
-      <a href="#">Foo</a>
-      <a href="#">Bar</a>
-    </div>
-  </div>
+      <div class="roster">
+        <div class="bio">
+          <topic><a href="https://majway.com" target="_blank">Pillars</a></topic>
+          <teaser>Benevolence, Optimism, Mentorship, Intellectual Philanthropy</teaser>
+          <div class="spacer-vertical">  
+            <sticker>If you have knowledge, let others light their candle in it.  -Margaret Fuller</sticker>
+            <sticker>He who receives an idea from me, receives instruction himself without lessening mine; as he who lights his taper at mine, receives light without darkening me. -Thomas Jefferson</sticker>
+          </div>  
+        </div>
+        <div class="bio">
+          <repo><a href="https://github.com/majway27" target="_blank"><i class="fa fa-github repo-fa-na"></i></a></repo>
+          <topic><a href="https://majway.com" target="_blank">Rob</a></topic>
+          <teaser>As a kid I liked to disasemble things.  Over the years I've been increasingly successfull at putting them back together.  Feel free to contact me.</teaser>
+          <teaser><img src="assets/img/robot3.png" alt="roboty" height="150px" width="100px"></teaser>
+          <div class="spacer-vertical">
+            <sticker id="trello"><a href="https://trello.com" target="_blank">Trello</a></sticker>
+            <sticker id="sketchboard"><a href="https://sketchboard.io" target="_blank">Sketchboard</a></sticker>
+            <sticker id="atlassian"><a href="https://www.atlassian.com" target="_blank">Atlassian Tools</a></sticker>
+          </div> <!-- spacer -->
+        </div> <!-- bio -->
+        <div class="bio">
+          <topic><a href="https://majway.com" target="_blank">Nevada</a></topic>
+          <teaser>Canine Extraordinaire.</teaser>
+          <div class="spacer-vertical">
+            <sticker id="woof"><a href="http://www.humanesociety.org/" target="_blank">Woof!</a></sticker>
+          </div> <!-- spacer -->
+        </div> <!-- bio -->
+        <div class="bio">
+          <repo><a href="https://majway.com" target="_blank"><i class="fa fa-github repo-fa-na"></i></a></repo>
+          <topic><a href="https://majway.com" target="_blank">Help us?</a></topic>
+          <teaser>Build great solutions!</teaser>
+          <div class="spacer-vertical">
+            <sticker id="trello"><a href="https://majway.com" target="_blank">Imagine</a></sticker>
+          </div> <!-- spacer -->
+        </div> <!-- bio -->
+    </div> <!-- roster -->
+  </div> <!-- overlay -->
+</div> <!-- nav -->

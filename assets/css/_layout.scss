@@ -144,7 +144,7 @@ footer {
 
 .img-preload { visibility: none; }
 
-.product {
+.product, .bio{
   background-color: $heading-font-color-rgba;
   margin: auto;
   border: 3px inset $edge;
@@ -221,7 +221,6 @@ footer {
     display: inline-block;
     line-height: 1;
     text-align: center;
-    white-space: nowrap;
     border-radius: .25em;
     background-color: $edge;
     margin: 3px;
