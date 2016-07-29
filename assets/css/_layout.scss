@@ -117,17 +117,17 @@ footer {
 .overlay a {
     padding: 10px;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.5em;
       @media all and (max-device-width: 785px){
-        font-size: 1.3em;
+        font-size: 1em;
         padding: 8px;
       }
       @media all and (max-device-width: 640px){
-        font-size: 1em;
+        font-size: .95em;
         padding: 6px;
       }
       @media all and (max-device-width: 320px){
-        font-size: .95em;
+        font-size: .5em;
         padding: 4px;
       }
     color: $font-color;
@@ -160,7 +160,16 @@ footer {
 
 .product {
   background-color: $heading-font-color-rgba;
-  width: 70%;
+  width: 50%;
+      @media all and (max-device-width: 720px){
+        width: 55%;
+      }
+      @media all and (max-device-width: 640px){
+        width: 60%;
+      }
+      @media all and (max-device-width: 320px){
+        width: 70%;
+      }
   margin: auto;
   border: 3px inset $edge;
   padding: 15px;
@@ -173,12 +182,12 @@ footer {
     -webkit-text-fill-color: transparent;
     color: $edge;
     text-shadow: 1px 1px 1px $font-color;
-    font-size: 2.5em;
+    font-size: 2.0em;
       @media all and (max-device-width: 720px){
-        font-size: 2.3em;
+        font-size: 1.8em;
       }
       @media all and (max-device-width: 640px){
-        font-size: 2em;
+        font-size: 1.5em;
       }
       @media all and (max-device-width: 320px){
         font-size: 1em;
@@ -189,17 +198,17 @@ footer {
   teaser {
     color: $link-color;
     margin: auto;
-    font-size: 2em;
+    font-size: 1.5em;
       @media all and (max-device-width: 785px){
-        font-size: 1.3em;
+        font-size: 1.0em;
         padding: 8px;
       }
       @media all and (max-device-width: 640px){
-        font-size: 1em;
+        font-size: .95em;
         padding: 6px;
       }
       @media all and (max-device-width: 320px){
-        font-size: .95em;
+        font-size: .5em;
         padding: 4px;
       }
   }
