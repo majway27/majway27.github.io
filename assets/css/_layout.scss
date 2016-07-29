@@ -174,11 +174,11 @@ footer {
     text-shadow: 1px 1px 1px $font-color;
     display: block;
     /* Extra small devices (phones, less than 768px) */
-    font-size: 2.7em;
+    font-size: 2em;
     padding: 4px;
     /* Small devices (tablets, 768px and up) */
     @media (min-width: $screen-sm-min) {
-      font-size: 3em;
+      font-size: 2.5em;
       padding: 6px;
     }
     /* Medium devices (desktops, 992px and up) */
@@ -218,17 +218,39 @@ footer {
   
   sticker {
     color: $font-color;
-    display: inline;
-    padding: .2em .6em .3em;
-    font-size: 100%;
-    font-weight: 700;
+    display: inline-block;
     line-height: 1;
     text-align: center;
     white-space: nowrap;
-    vertical-align: baseline;
     border-radius: .25em;
     background-color: $edge;
     margin: 3px;
+    /* Extra small devices (phones, less than 768px) */
+    font-size: .5em;
+    padding: .2em .6em .3em;
+    font-weight: 400;
+    margin: 3px;
+    /* Small devices (tablets, 768px and up) */
+    @media (min-width: $screen-sm-min) {
+      font-size: .8em;
+      padding: .2em .6em .3em;
+      font-weight: 500;
+      margin: 4px;
+    }
+    /* Medium devices (desktops, 992px and up) */
+    @media (min-width: $screen-md-min) { 
+      font-size: .9em;
+      padding: .2em .6em .3em;
+      font-weight: 600;
+      margin: 5px;
+    }
+    /* Large devices (large desktops, 1200px and up) */
+    @media (min-width: $screen-lg-min) { 
+      font-size: 1em;
+      padding: .2em .6em .3em;
+      font-weight: 700;
+      margin: 6px;
+    }
   }
 
   .repo-fa {
