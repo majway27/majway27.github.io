@@ -115,24 +115,10 @@ footer {
 }
 
 .overlay a {
-    padding: 10px;
-    text-decoration: none;
-    font-size: 1.5em;
-      @media all and (max-device-width: 785px){
-        font-size: 1em;
-        padding: 8px;
-      }
-      @media all and (max-device-width: 640px){
-        font-size: .95em;
-        padding: 6px;
-      }
-      @media all and (max-device-width: 320px){
-        font-size: .5em;
-        padding: 4px;
-      }
-    color: $font-color;
-    display: block;
-    transition: 0.3s;
+  text-decoration: none;
+  color: $font-color;
+  display: block;
+  transition: 0.3s;
 }
 
 .overlay a:hover, .overlay a:focus {
@@ -160,21 +146,25 @@ footer {
 
 .product {
   background-color: $heading-font-color-rgba;
-  width: 50%;
-      @media all and (max-device-width: 720px){
-        width: 55%;
-      }
-      @media all and (max-device-width: 640px){
-        width: 60%;
-      }
-      @media all and (max-device-width: 320px){
-        width: 70%;
-      }
   margin: auto;
   border: 3px inset $edge;
   padding: 15px;
   overflow:hidden;
-  
+  width: 70%;
+  /* Extra small devices (phones, less than 768px) */
+  width: 70%;
+  /* Small devices (tablets, 768px and up) */
+  @media (min-width: $screen-sm-min) {
+    width: 60%;
+  }
+  /* Medium devices (desktops, 992px and up) */
+  @media (min-width: $screen-md-min) { 
+    width: 50%;
+  }
+  /* Large devices (large desktops, 1200px and up) */
+  @media (min-width: $screen-lg-min) { 
+    width: 50%;
+  }
   
   topic {
     background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, $link-color), color-stop(100%, $heading-font-color)); background-image: -webkit-linear-gradient(#ffffff,$edge);
@@ -182,35 +172,48 @@ footer {
     -webkit-text-fill-color: transparent;
     color: $edge;
     text-shadow: 1px 1px 1px $font-color;
-    font-size: 2.0em;
-      @media all and (max-device-width: 720px){
-        font-size: 1.8em;
-      }
-      @media all and (max-device-width: 640px){
-        font-size: 1.5em;
-      }
-      @media all and (max-device-width: 320px){
-        font-size: 1em;
-      }
     display: block;
+    /* Extra small devices (phones, less than 768px) */
+    font-size: 2.7em;
+    padding: 4px;
+    /* Small devices (tablets, 768px and up) */
+    @media (min-width: $screen-sm-min) {
+      font-size: 3em;
+      padding: 6px;
+    }
+    /* Medium devices (desktops, 992px and up) */
+    @media (min-width: $screen-md-min) { 
+      font-size: 3.2em;
+        padding: 8px;
+    }
+    /* Large devices (large desktops, 1200px and up) */
+    @media (min-width: $screen-lg-min) { 
+      font-size: 3.5em;
+      padding: 10px;
+    }
   }
   
   teaser {
     color: $link-color;
     margin: auto;
-    font-size: 1.5em;
-      @media all and (max-device-width: 785px){
-        font-size: 1.0em;
+    /* Extra small devices (phones, less than 768px) */
+    font-size: 1em;
+    padding: 4px;
+    /* Small devices (tablets, 768px and up) */
+    @media (min-width: $screen-sm-min) {
+      font-size: 1.4em;
+      padding: 6px;
+    }
+    /* Medium devices (desktops, 992px and up) */
+    @media (min-width: $screen-md-min) { 
+      font-size: 1.5em;
         padding: 8px;
-      }
-      @media all and (max-device-width: 640px){
-        font-size: .95em;
-        padding: 6px;
-      }
-      @media all and (max-device-width: 320px){
-        font-size: .5em;
-        padding: 4px;
-      }
+    }
+    /* Large devices (large desktops, 1200px and up) */
+    @media (min-width: $screen-lg-min) { 
+      font-size: 1.8em;
+      padding: 10px;
+    }
   }
   
   sticker {
