@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Test1"
+teaser: "A First Test"
+date:   2016-07-20 
+categories: test 1
+---
+blah blah blah

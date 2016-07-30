@@ -144,7 +144,7 @@ footer {
 
 .img-preload { visibility: none; }
 
-.product, .bio{
+.product, .bio, .article{
   background-color: $heading-font-color-rgba;
   margin: auto;
   border: 3px inset $edge;
@@ -272,4 +272,8 @@ footer {
 .spacer-vertical {
   margin-top: 10px;
   margin-bottom: 15px;
+}
+
+.hidden {
+  display: none;
 }
