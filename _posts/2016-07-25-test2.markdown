@@ -1,8 +1,0 @@
----
-layout: post
-title:  "Test2"
-teaser: "A Test 2"
-date:   2016-07-25
-categories: test 2
----
-Blah blah blah

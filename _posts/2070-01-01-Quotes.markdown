@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Favorite Quotes"
+teaser: "Pinned"
+date:   2070-01-01
+categories: pinned quotes
+---
+> … we have to keep it crisp, disentangled and simple if we refuse to be crushed by the complexities of our own making.  Edsger W. Dijkstra
+
+> Design, by nature, is a series of trade-offs -Allen Holub
+
+> I didn't have time to write a short letter, so I wrote a long one instead. -Mark Twain.
+
+> If you optimize everything, you will always be unhappy. --Donald Knuth
