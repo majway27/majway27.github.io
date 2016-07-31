@@ -16,6 +16,8 @@ url: "http://majway.com" # the base hostname & protocol for your site
 twitter_username: majway27
 github_username:  majway27
 
+future: true
+
 # Build Settings
 sass:
   sass_dir: assets/css

@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "NewDay"
+teaser: "testtest"
+date:   2016-07-25
+categories: test
+---
+blahblah layout
