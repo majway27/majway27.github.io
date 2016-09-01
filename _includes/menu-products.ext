@@ -35,7 +35,7 @@
       </div>
       <div class="product ruby jira">
         <repo><a href="https://github.com/majway27/subtask-shuffle" target="_blank"><i class="fa fa-github repo-fa"></i></a></repo>
-        <topic><a href="https://github.com/majway27/subtask-shuffle" target="_blank">Jira Project Issue Imports, Sub-tasks</a></topic>
+        <topic><a href="https://github.com/majway27/subtask-shuffle" target="_blank">Subtask-Shuffle</a></topic>
         <teaser>Jira CSV Issue Import, Link Sub-tasks to Parents for large projects (10K+ issues).</teaser>
         <div class="spacer-vertical">
           <sticker id="Ruby">Ruby</sticker><sticker id="Jira">Jira</sticker>
