@@ -6,9 +6,10 @@
     <div class="btn overlay-btn" data-filter="cloud">Cloud</div>
     <div class="btn overlay-btn" data-filter="docker">Docker</div>
     <div class="btn overlay-btn" data-filter="jekyll">Jekyll</div>
+    <div class="btn overlay-btn" data-filter="jira">Jira</div>
     <div class="btn overlay-btn" data-filter="js">JS</div>
     <div class="btn overlay-btn" data-filter="os">OS</div>
-    <div class="btn overlay-btn" data-filter="rails">Ruby</div>
+    <div class="btn overlay-btn" data-filter="ruby">Ruby</div>
     <div class="btn overlay-btn" data-filter="mobile">Mobile</div>
     <div class="btn overlay-btn" data-filter="sql">SQL</div>
     <div class="btn overlay-btn" data-filter="onprem">On-Premise</div>
@@ -24,20 +25,20 @@
           <sticker id="php">CakePHP</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="docker">Docker</sticker><sticker id="mysql">MySQL</sticker><sticker id="linux">Linux</sticker><sticker id="uiux">UI-UX</sticker><sticker id="onprem">On-Premise</sticker><sticker id="jquery">JQuery</sticker>
         </div>
       </div>
-      <div class="product rails mobile sql os cloud js">
+      <div class="product ruby mobile sql os cloud js">
         <repo><a href="https://github.com/majway27" target="_blank"><i class="fa fa-github repo-fa-na"></i></a></repo>
         <topic><a href="https://tc.majway.com" target="_blank">SuggestionBox</a></topic>
-        <teaser>Team feedback tool with focus on a tight feedback loop. POC for client.</teaser>
+        <teaser>Team feedback tool with focus on a tight feedback loop. Private POC for client.</teaser>
         <div class="spacer-vertical">
-          <sticker id="Rails">Rails</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="AWS">AWS</sticker><sticker id="postgresql">Postgresql</sticker><sticker id="linux">Linux</sticker><sticker id="cloud">Cloud</sticker><sticker id="jquery">JQuery</sticker>
+          <sticker id="Rails">Rails</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="postgresql">Postgresql</sticker><sticker id="linux">Linux</sticker><sticker id="heroku">Heroku</sticker><sticker id="jquery">JQuery</sticker>
         </div>
       </div>
-      <div class="product rails mobile sql cloud js">
-        <repo><a href="https://github.com/majway27/brushes" target="_blank"><i class="fa fa-github repo-fa"></i></a></repo>
-        <topic><a href="https://brushes.majway.com" target="_blank">Brushes</a></topic>
-        <teaser>Creativity catered event business. POC for client.</teaser>
+      <div class="product ruby jira">
+        <repo><a href="https://github.com/majway27/subtask-shuffle" target="_blank"><i class="fa fa-github repo-fa"></i></a></repo>
+        <topic><a href="https://github.com/majway27/subtask-shuffle" target="_blank">Jira Project Issue Imports, Sub-tasks</a></topic>
+        <teaser>Jira CSV Issue Import, Link Sub-tasks to Parents for large projects (10K+ issues).</teaser>
         <div class="spacer-vertical">
-          <sticker id="Heroku">Heroku</sticker><sticker id="Rails">Rails</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="postgresql">Postgresql</sticker><sticker id="cloud">Cloud</sticker><sticker id="jquery">JQuery</sticker>
+          <sticker id="Ruby">Ruby</sticker><sticker id="Jira">Jira</sticker>
         </div>
       </div>
       <div class="product jekyll mobile uiux cloud">
@@ -48,11 +49,12 @@
           <sticker id="linux">Linux</sticker><sticker id="ghpages">GitHub-Pages</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="uiux">UI-UX</sticker><sticker id="cloud">Cloud</sticker>
         </div>
       </div>
-      <div class="product">
-        <topic href="#" target="_blank">In Progress</topic>
-        <teaser>Solution Details Here.</teaser>
+      <div class="product ruby mobile sql os cloud js">
+        <repo><a href="https://github.com/majway27/DetailHaunted" target="_blank"><i class="fa fa-github repo-fa"></i></a></repo>
+        <topic><a href="https://detailhaunted.majway.com" target="_blank">DetailHaunted</a></topic>
+        <teaser>A place for all the silly little tools I think of.</teaser>
         <div class="spacer-vertical">
-          <sticker id="Tech">Tech</sticker>
+          <sticker id="Rails">Rails</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="AWS">AWS</sticker><sticker id="postgresql">Postgresql</sticker><sticker id="linux">Linux</sticker><sticker id="jquery">JQuery</sticker>
         </div>
       </div>
       <div class="product">
