@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cloudflare"
-teaser: "Cloudflare is great"
+teaser: "Cloudflare Review"
 date:   2016-09-01
 categories: proxy cdn
 ---
