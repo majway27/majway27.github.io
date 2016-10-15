@@ -12,3 +12,5 @@ categories: pinned quotes
 > I didn't have time to write a short letter, so I wrote a long one instead. -Mark Twain.
 
 > If you optimize everything, you will always be unhappy. --Donald Knuth
+
+> It ain't where you start in life, it's what you do in life, that will determine where you end up in life. -Colin Powell
