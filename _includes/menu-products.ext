@@ -57,11 +57,11 @@
           <sticker id="Rails">Rails</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="AWS">AWS</sticker><sticker id="postgresql">Postgresql</sticker><sticker id="linux">Linux</sticker><sticker id="jquery">JQuery</sticker>
         </div>
       </div>
-      <div class="product">
-        <topic href="#" target="_blank">In Progress</topic>
-        <teaser>Solution Details Here.</teaser>
+      <div class="ruby">
+        <topic href="https://github.com/majway27/motherslittlehelper" target="_blank">Mothers Little Helper</topic>
+        <teaser>Automation wrapper for popular appointment software.</teaser>
         <div class="spacer-vertical">
-          <sticker id="Tech">Tech</sticker>
+          <sticker id="Ruby">Ruby</sticker>
         </div>
       </div>
       <div class="product os">
