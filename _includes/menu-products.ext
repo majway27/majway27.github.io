@@ -58,7 +58,8 @@
         </div>
       </div>
       <div class="ruby">
-        <topic href="https://github.com/majway27/motherslittlehelper" target="_blank">Mothers Little Helper</topic>
+        <repo><a href="https://github.com/majway27/motherslittlehelper" target="_blank"><i class="fa fa-github repo-fa"></i></a></repo>
+        <topic><a href="https://github.com/majway27/motherslittlehelper" target="_blank">Mothers Little Helper</a></topic>
         <teaser>Automation wrapper for popular appointment software.</teaser>
         <div class="spacer-vertical">
           <sticker id="Ruby">Ruby</sticker>
