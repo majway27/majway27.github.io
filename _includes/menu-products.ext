@@ -3,8 +3,13 @@
   <div class="overlay-content">
     
     <div class="active btn overlay-btn" data-filter="product" id="all">Show All</div>
+    <div class="btn overlay-btn" data-filter="andriod">Andriod</div>
+    <div class="btn overlay-btn" data-filter="bash">Bash</div>
+    <div class="btn overlay-btn" data-filter="chef">Chef</div>
     <div class="btn overlay-btn" data-filter="cloud">Cloud</div>
+    <div class="btn overlay-btn" data-filter="config">Configuration-Management</div>
     <div class="btn overlay-btn" data-filter="docker">Docker</div>
+    <div class="btn overlay-btn" data-filter="java">Java</div>
     <div class="btn overlay-btn" data-filter="jekyll">Jekyll</div>
     <div class="btn overlay-btn" data-filter="jira">Jira</div>
     <div class="btn overlay-btn" data-filter="js">JS</div>
@@ -14,6 +19,7 @@
     <div class="btn overlay-btn" data-filter="sql">SQL</div>
     <div class="btn overlay-btn" data-filter="onprem">On-Premise</div>
     <div class="btn overlay-btn" data-filter="php">PHP</div>
+    <div class="btn overlay-btn" data-filter="puppet">Puppet</div>
     <div class="btn overlay-btn" data-filter="uiux">UI-UX</div>
     
     <div class="roster">
@@ -62,7 +68,7 @@
         <topic><a href="https://github.com/majway27/motherslittlehelper/blob/master/main.rb" target="_blank">Mothers Little Helper</a></topic>
         <teaser>Wrapper for popular appointment software</teaser>
         <div class="spacer-vertical">
-          <sticker id="Rails">Rails</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="AWS">AWS</sticker><sticker id="postgresql">Postgresql</sticker><sticker id="linux">Linux</sticker><sticker id="jquery">JQuery</sticker>
+          <sticker id="Ruby">Ruby</sticker>
         </div>
       </div>
       
