@@ -2,78 +2,130 @@
   <a href="javascript:void(0)" class="closebtn" onclick="closeProductNav()"><i class="fa fa-arrow-circle-down" style="font-size:40px;"></i></a>
   <div class="overlay-content">
     
-    <div class="categories">
-      <div class="active btn overlay-btn" data-filter="product" id="all">Show All</div>
+    <div class="product">
+      <div class="active btn overlay-btn" data-filter="product" id="all"><em>Show All</em></div>
+      <div class="btn overlay-btn" data-filter="automation">Automation</div>
       <div class="btn overlay-btn" data-filter="andriod">Andriod</div>
       <div class="btn overlay-btn" data-filter="bash">Bash</div>
       <div class="btn overlay-btn" data-filter="chef">Chef</div>
       <div class="btn overlay-btn" data-filter="cloud">Cloud</div>
       <div class="btn overlay-btn" data-filter="config">Configuration-Management</div>
+      <div class="btn overlay-btn" data-filter="debian">Debian Linux</div>
       <div class="btn overlay-btn" data-filter="docker">Docker</div>
       <div class="btn overlay-btn" data-filter="java">Java</div>
       <div class="btn overlay-btn" data-filter="jekyll">Jekyll</div>
       <div class="btn overlay-btn" data-filter="jira">Jira</div>
       <div class="btn overlay-btn" data-filter="js">JS</div>
-      <div class="btn overlay-btn" data-filter="os">OS</div>
-      <div class="btn overlay-btn" data-filter="ruby">Ruby</div>
       <div class="btn overlay-btn" data-filter="mobile">Mobile</div>
-      <div class="btn overlay-btn" data-filter="sql">SQL</div>
       <div class="btn overlay-btn" data-filter="onprem">On-Premise</div>
       <div class="btn overlay-btn" data-filter="php">PHP</div>
       <div class="btn overlay-btn" data-filter="puppet">Puppet</div>
+      <div class="btn overlay-btn" data-filter="redhat">Redhat Linux</div>
+      <div class="btn overlay-btn" data-filter="responsive">Responsive</div>
+      <div class="btn overlay-btn" data-filter="ruby">Ruby</div>
+      <div class="btn overlay-btn" data-filter="sql">SQL</div>
       <div class="btn overlay-btn" data-filter="uiux">UI-UX</div>
     </div>
     
     <div class="roster">
-      <div class="product php mobile docker sql os onprem uiux js">
-        <repo><a href="https://github.com/majway27/keldo" target="_blank"><i class="fa fa-github repo-fa"></i></a></repo>
-        <topic><a href="https://lab5.majway.com/keldo-app" target="_blank">Keldo</a></topic>
-        <teaser>A social writing studio with a stage and a foucs on compact writing.</teaser>
-        <div class="spacer-vertical">
-          <sticker id="php">CakePHP</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="docker">Docker</sticker><sticker id="mysql">MySQL</sticker><sticker id="linux">Linux</sticker><sticker id="uiux">UI-UX</sticker><sticker id="onprem">On-Premise</sticker><sticker id="jquery">JQuery</sticker>
-        </div>
-      </div>
-      <div class="product ruby mobile sql os cloud js">
+      
+      <div class="product ruby responsive sql cloud js uiux">
         <repo><a href="https://github.com/majway27" target="_blank"><i class="fa fa-github repo-fa-na"></i></a></repo>
         <topic><a href="https://tc.majway.com" target="_blank">SuggestionBox</a></topic>
         <teaser>Team feedback tool with focus on a tight feedback loop. Private POC for client.</teaser>
         <div class="spacer-vertical">
-          <sticker id="Rails">Rails</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="postgresql">Postgresql</sticker><sticker id="linux">Linux</sticker><sticker id="heroku">Heroku</sticker><sticker id="jquery">JQuery</sticker>
+          <sticker id="Rails">Rails</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="postgresql">Postgresql</sticker><sticker id="heroku">Heroku</sticker><sticker id="jquery">JQuery</sticker>
         </div>
       </div>
-      <div class="product ruby jira">
+      <div class="product ruby jira automation">
         <repo><a href="https://github.com/majway27/subtask-shuffle" target="_blank"><i class="fa fa-github repo-fa"></i></a></repo>
         <topic><a href="https://github.com/majway27/subtask-shuffle" target="_blank">Subtask-Shuffle</a></topic>
         <teaser>Jira CSV Issue Import, Link Sub-tasks to Parents for large projects (10K+ issues).</teaser>
         <div class="spacer-vertical">
-          <sticker id="Ruby">Ruby</sticker><sticker id="Jira">Jira</sticker>
+          <sticker id="Ruby">Ruby</sticker><sticker id="Jira">Jira</sticker><sticker id="Automation">Automation</sticker>
         </div>
       </div>
-      <div class="product jekyll mobile uiux cloud">
+      <div class="product jekyll responsive uiux cloud">
         <repo><a href="https://github.com/majway27/majway27.github.io" target="_blank"><i class="fa fa-github repo-fa"></i></a></repo>
         <topic><a href="https://www.mayway.com" target="_blank">Majway.com</a></topic>
         <teaser>Portfolio.</teaser>
         <div class="spacer-vertical">
-          <sticker id="linux">Linux</sticker><sticker id="ghpages">GitHub-Pages</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="uiux">UI-UX</sticker><sticker id="cloud">Cloud</sticker>
+          <sticker id="ghpages">GitHub-Pages</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="uiux">UI-UX</sticker><sticker id="cloud">Cloud</sticker>
         </div>
       </div>
-      <div class="product ruby mobile sql os cloud js">
+      <div class="product ruby responsive sql cloud js">
         <repo><a href="https://github.com/majway27/DetailHaunted" target="_blank"><i class="fa fa-github repo-fa"></i></a></repo>
         <topic><a href="https://detailhaunted.majway.com" target="_blank">DetailHaunted</a></topic>
         <teaser>A place for all the silly little tools I think of.</teaser>
         <div class="spacer-vertical">
-          <sticker id="Rails">Rails</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="AWS">AWS</sticker><sticker id="postgresql">Postgresql</sticker><sticker id="linux">Linux</sticker><sticker id="jquery">JQuery</sticker>
+          <sticker id="Rails">Rails</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="AWS">AWS</sticker><sticker id="postgresql">Postgresql</sticker><sticker id="jquery">JQuery</sticker>
         </div>
       </div>
-      <div class="product ruby">
+      <div class="product ruby automation">
         <repo><a href="https://github.com/majway27/motherslittlehelper" target="_blank"><i class="fa fa-github repo-fa"></i></a></repo>
         <topic><a href="https://github.com/majway27/motherslittlehelper/blob/master/main.rb" target="_blank">Mothers Little Helper</a></topic>
         <teaser>Wrapper for popular appointment software</teaser>
         <div class="spacer-vertical">
-          <sticker id="Ruby">Ruby</sticker>
+          <sticker id="Ruby">Ruby</sticker><sticker id="Automation">Automation</sticker>
         </div>
       </div>
-      
+      <div class="product java andriod mobile">
+        <repo><a href="https://github.com/majway27/android-playground" target="_blank"><i class="fa fa-github repo-fa"></i></a></repo>
+        <topic><a href="https://github.com/majway27/android-playground" target="_blank">Andriod App Playground</a></topic>
+        <teaser>Building some sandbox Andriod apps, to explore mobile functionality</teaser>
+        <div class="spacer-vertical">
+          <sticker id="Java">Java</sticker><sticker id="Andriod">Andriod</sticker><sticker id="Mobile">Mobile</sticker>
+        </div>
+      </div>
+      <div class="product php responsive docker sql debian onprem uiux js">
+        <repo><a href="https://github.com/majway27/keldo" target="_blank"><i class="fa fa-github repo-fa"></i></a></repo>
+        <topic><a href="https://lab5.majway.com/keldo-app" target="_blank">Keldo</a></topic>
+        <teaser>A social writing studio with a stage and a foucs on compact writing.</teaser>
+        <div class="spacer-vertical">
+          <sticker id="php">CakePHP</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="docker">Docker</sticker><sticker id="mysql">MySQL</sticker><sticker id="Debian Linux">Debian Linux</sticker><sticker id="uiux">UI-UX</sticker><sticker id="onprem">On-Premise</sticker><sticker id="jquery">JQuery</sticker>
+        </div>
+      </div>
+      <div class="product java">
+        <repo><a href="https://github.com/majway27/FarmsWallsBandits" target="_blank"><i class="fa fa-github repo-fa"></i></a></repo>
+        <topic><a href="https://code.google.com/archive/p/farmswallsbandits/" target="_blank">Farms-Walls-Bandits Game</a></topic>
+        <teaser>Java based 2d platformer game, utilizing LWJGL library</teaser>
+        <div class="spacer-vertical">
+          <sticker id="Java">Java</sticker>
+        </div>
+      </div>
+      <div class="product automation config puppet ruby onprem debian">
+        <repo><a href="https://github.com/majway27/puppet-lab-" target="_blank"><i class="fa fa-github repo-fa"></i></a></repo>
+        <topic><a href="https://github.com/majway27/puppet-lab-" target="_blank">Puppet Lab</a></topic>
+        <teaser>Local lab, Puppet CM POC</teaser>
+        <div class="spacer-vertical">
+          <sticker id="Automation">Automation</sticker><sticker id="Configuration-Management">Configuration-Management</sticker><sticker id="Puppet">Puppet</sticker><sticker id="Ruby">Ruby</sticker><sticker id="On-Premise">On-Premise</sticker><sticker id="Debian Linux">Debian Linux</sticker>
+        </div>
+      </div>
+      <div class="product automation config chef ruby onprem redhat">
+        <repo><a href="https://github.com/majway27/chef-repo" target="_blank"><i class="fa fa-github repo-fa"></i></a></repo>
+        <topic><a href="https://github.com/majway27/chef-repo" target="_blank">Chef Lab</a></topic>
+        <teaser>Local lab, Chef CM POC</teaser>
+        <div class="spacer-vertical">
+          <sticker id="Automation">Automation</sticker><sticker id="Configuration-Management">Configuration-Management</sticker><sticker id="Chef">Chef</sticker><sticker id="Ruby">Ruby</sticker><sticker id="On-Premise">On-Premise</sticker><sticker id="Redhat Linux">Redhat Linux</sticker>
+        </div>
+      </div>
+      <div class="product bash debian redhat">
+          <repo><a href="https://github.com/majway27/shellscripts" target="_blank"><i class="fa fa-github repo-fa"></i></a></repo>
+          <topic><a href="https://github.com/majway27/shellscripts" target="_blank">Shell Scripts</a></topic>
+          <teaser>Dumping ground for useful shell scripts</teaser>
+          <div class="spacer-vertical">
+            <sticker id="Bash">Bash</sticker><sticker id="Debian Linux">Debian Linux</sticker><sticker id="Redhat Linux">Redhat Linux</sticker>
+          </div>
+      </div>
+      <div class="product jira java">
+          <repo><a href="https://github.com/majway27/complaints" target="_blank"><i class="fa fa-github repo-fa"></i></a></repo>
+          <topic><a href="https://github.com/majway27/complaints" target="_blank">Jira Plugin: Complaints!</a></topic>
+          <teaser>Jira Plugin POC, Collect and Manage Complaints!</teaser>
+          <div class="spacer-vertical">
+            <sticker id="Jira">Jira</sticker><sticker id="Java">Java</sticker>
+          </div>
+      </div>
+    
     </div>
   </div>
 </div>
