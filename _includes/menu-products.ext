@@ -2,25 +2,27 @@
   <a href="javascript:void(0)" class="closebtn" onclick="closeProductNav()"><i class="fa fa-arrow-circle-down" style="font-size:40px;"></i></a>
   <div class="overlay-content">
     
-    <div class="active btn overlay-btn" data-filter="product" id="all">Show All</div>
-    <div class="btn overlay-btn" data-filter="andriod">Andriod</div>
-    <div class="btn overlay-btn" data-filter="bash">Bash</div>
-    <div class="btn overlay-btn" data-filter="chef">Chef</div>
-    <div class="btn overlay-btn" data-filter="cloud">Cloud</div>
-    <div class="btn overlay-btn" data-filter="config">Configuration-Management</div>
-    <div class="btn overlay-btn" data-filter="docker">Docker</div>
-    <div class="btn overlay-btn" data-filter="java">Java</div>
-    <div class="btn overlay-btn" data-filter="jekyll">Jekyll</div>
-    <div class="btn overlay-btn" data-filter="jira">Jira</div>
-    <div class="btn overlay-btn" data-filter="js">JS</div>
-    <div class="btn overlay-btn" data-filter="os">OS</div>
-    <div class="btn overlay-btn" data-filter="ruby">Ruby</div>
-    <div class="btn overlay-btn" data-filter="mobile">Mobile</div>
-    <div class="btn overlay-btn" data-filter="sql">SQL</div>
-    <div class="btn overlay-btn" data-filter="onprem">On-Premise</div>
-    <div class="btn overlay-btn" data-filter="php">PHP</div>
-    <div class="btn overlay-btn" data-filter="puppet">Puppet</div>
-    <div class="btn overlay-btn" data-filter="uiux">UI-UX</div>
+    <div class="categories">
+      <div class="active btn overlay-btn" data-filter="product" id="all">Show All</div>
+      <div class="btn overlay-btn" data-filter="andriod">Andriod</div>
+      <div class="btn overlay-btn" data-filter="bash">Bash</div>
+      <div class="btn overlay-btn" data-filter="chef">Chef</div>
+      <div class="btn overlay-btn" data-filter="cloud">Cloud</div>
+      <div class="btn overlay-btn" data-filter="config">Configuration-Management</div>
+      <div class="btn overlay-btn" data-filter="docker">Docker</div>
+      <div class="btn overlay-btn" data-filter="java">Java</div>
+      <div class="btn overlay-btn" data-filter="jekyll">Jekyll</div>
+      <div class="btn overlay-btn" data-filter="jira">Jira</div>
+      <div class="btn overlay-btn" data-filter="js">JS</div>
+      <div class="btn overlay-btn" data-filter="os">OS</div>
+      <div class="btn overlay-btn" data-filter="ruby">Ruby</div>
+      <div class="btn overlay-btn" data-filter="mobile">Mobile</div>
+      <div class="btn overlay-btn" data-filter="sql">SQL</div>
+      <div class="btn overlay-btn" data-filter="onprem">On-Premise</div>
+      <div class="btn overlay-btn" data-filter="php">PHP</div>
+      <div class="btn overlay-btn" data-filter="puppet">Puppet</div>
+      <div class="btn overlay-btn" data-filter="uiux">UI-UX</div>
+    </div>
     
     <div class="roster">
       <div class="product php mobile docker sql os onprem uiux js">
