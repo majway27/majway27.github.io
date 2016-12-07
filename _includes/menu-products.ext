@@ -49,7 +49,6 @@
           <sticker id="linux">Linux</sticker><sticker id="ghpages">GitHub-Pages</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="uiux">UI-UX</sticker><sticker id="cloud">Cloud</sticker>
         </div>
       </div>
-      
       <div class="product ruby mobile sql os cloud js">
         <repo><a href="https://github.com/majway27/DetailHaunted" target="_blank"><i class="fa fa-github repo-fa"></i></a></repo>
         <topic><a href="https://detailhaunted.majway.com" target="_blank">DetailHaunted</a></topic>
@@ -58,11 +57,10 @@
           <sticker id="Rails">Rails</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="AWS">AWS</sticker><sticker id="postgresql">Postgresql</sticker><sticker id="linux">Linux</sticker><sticker id="jquery">JQuery</sticker>
         </div>
       </div>
-      
-      <div class="product ruby mobile sql os cloud js">
-        <repo><a href="https://github.com/majway27/DetailHaunted" target="_blank"><i class="fa fa-github repo-fa"></i></a></repo>
-        <topic><a href="https://detailhaunted.majway.com" target="_blank">DetailHaunted</a></topic>
-        <teaser>A place for all the silly little tools I think of.</teaser>
+      <div class="product ruby">
+        <repo><a href="https://github.com/majway27/motherslittlehelper" target="_blank"><i class="fa fa-github repo-fa"></i></a></repo>
+        <topic><a href="https://github.com/majway27/motherslittlehelper/blob/master/main.rb" target="_blank">Mothers Little Helper</a></topic>
+        <teaser>Wrapper for popular appointment software</teaser>
         <div class="spacer-vertical">
           <sticker id="Rails">Rails</sticker><sticker id="bootstrap">Bootstrap</sticker><sticker id="AWS">AWS</sticker><sticker id="postgresql">Postgresql</sticker><sticker id="linux">Linux</sticker><sticker id="jquery">JQuery</sticker>
         </div>
